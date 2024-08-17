@@ -120,6 +120,10 @@
     gap: 0px 30px;
     
 }
+.content-course a{
+    text-decoration: none;
+    color: #000;
+}
 .content-course .course {
     width: 300px;
     border-radius: 5px;
