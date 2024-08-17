@@ -1,24 +1,37 @@
 $(document).ready(function () {
+    // swiper settings
     const swiper = new Swiper('.swiper', {
-        // Optional parameters
         direction: 'horizontal',
         loop: true,
       
-        // If we need pagination
         pagination: {
           el: '.swiper-pagination',
-          
         },
       
-        // Navigation arrows
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
       
-        // And if we need scrollbar
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
       });
+
+    //   lightbox2 settings
+    lightbox.option({
+        'resizeDuration': 300,
+        'wrapAround': true,
+        'disableScrolling': true
+      })
+
+    //   goToTop icon
+    $('.goToTop').on('mouseover', function () {
+        $('.fa-circle-up').attr('style', 'color: red');
+    });
+
+    $('.goToTop').on('mouseleave', function () {
+        $('.fa-circle-up').attr('style', 'color: #FFD43B');
+    });
+
+    $('.goToTop').click(function (e) { 
+        $('html,body').animate({scrollTop: 0}, 800);
+    });
 });

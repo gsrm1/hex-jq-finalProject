@@ -4,6 +4,7 @@
 .wrap{
     max-width: 1000px;
     margin: 0 auto;
+    
     font-family: "Noto Sans TC", Arial, sans-serif;
     
 }
@@ -118,7 +119,6 @@
     display: flex;
     justify-content: center;
     gap: 0px 30px;
-    
 }
 .content-course a{
     text-decoration: none;
@@ -195,6 +195,7 @@
 .content-form{
     max-width: 1000px;
     padding-top: 40px;
+    position: relative;
     background: linear-gradient(#00644b, #37d8b0)
 }
 .content-form h2{
@@ -208,7 +209,7 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 .form-inputs input{
     width: 362px;
@@ -256,7 +257,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 26px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .footer-contact li a{
     line-height: 25px;
@@ -282,4 +283,13 @@
 }
 .content{
     margin-top: 75px;
+}
+
+.goToTop{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    font-size: 50px;
+    cursor: pointer;
+    
 }
