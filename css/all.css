@@ -10,7 +10,8 @@
 .nav{
     max-width: 1000px;
     padding: 5px 0px;
-    background-color: hsl(0, 0%, 95%);
+    background-color: rgb(134, 138, 154);
+   
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -50,8 +51,9 @@
     position: fixed;
     top: 28px;
     width: 100%;
-    background-color: hsl(0, 0%, 95%);
-    border-radius: 0 0 10px 10px;
+    
+    background-color: rgb(134, 138, 154);
+   
     z-index: 10;
 }
 .header .logo a{
@@ -103,8 +105,12 @@
     color: white;
     font-size: 30px;
     line-height: 50px;
-    background-color: hsla(0, 0%, 0%, 0.2);
+    background-color: hsla(0, 0%, 0%, 0.1);
     
+}
+.content-banner h1 span{
+    color: rgb(68, 226, 65);
+    font-size: 35px;
 }
 .content-course{
     max-width: 1000px;
@@ -112,7 +118,7 @@
     display: flex;
     justify-content: center;
     gap: 0px 30px;
-    cursor: pointer;
+    
 }
 .content-course .course {
     width: 300px;
