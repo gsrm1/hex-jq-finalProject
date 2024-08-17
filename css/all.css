@@ -3,8 +3,9 @@
 }
 .wrap{
     max-width: 1000px;
-    margin: 80px auto 0px auto;
+    margin: 0 auto;
     font-family: "Noto Sans TC", Arial, sans-serif;
+    
 }
 .nav{
     max-width: 1000px;
@@ -16,6 +17,9 @@
     position: fixed;
     top: 0;
     width: 100%;
+    position: fixed;
+    z-index: 10;
+    
 }
 .nav ul{
     margin-right: 10px;
@@ -46,7 +50,9 @@
     position: fixed;
     top: 28px;
     width: 100%;
-    background-color: #fff;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 0 0 10px 10px;
+    z-index: 10;
 }
 .header .logo a{
     display: block;
@@ -83,18 +89,22 @@
 .content-banner{
     max-width: 1000px;
     height: 346px;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
     display: flex;
+    
     align-items: center;
-    background-image: url(../img/banner.png);
+    border-radius: 0 0 5px 5px;
+    
+    background-color: hsla(215, 85%, 55%, 0.706);
 }
 .content-banner h1{
     width: 1000px;
     padding: 20px 20px 20px;
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 50px;
     background-color: hsla(0, 0%, 0%, 0.2);
+    
 }
 .content-course{
     max-width: 1000px;
@@ -102,6 +112,7 @@
     display: flex;
     justify-content: center;
     gap: 0px 30px;
+    cursor: pointer;
 }
 .content-course .course {
     width: 300px;
@@ -244,4 +255,21 @@
 }
 .footer-contact li a:hover{
     text-decoration: underline;
+}
+
+/* swiper code */
+
+.swiper{
+    max-width: 1000px;
+    
+   
+}
+.swiper img{
+    width: 99%;
+    border-radius: 5px;
+    
+   
+}
+.content{
+    margin-top: 75px;
 }
