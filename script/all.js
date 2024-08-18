@@ -34,4 +34,12 @@ $(document).ready(function () {
     $('.goToTop').click(function (e) { 
         $('html,body').animate({scrollTop: 0}, 800);
     });
+
+    // menu dropdown-open
+    $('.dropdown').click(function (e) { 
+      e.preventDefault();
+      $('.dropdown').toggleClass('active');
+      $('.dropdown-open').slideToggle('fast');
+      
+    });
 });

@@ -11,7 +11,7 @@
 .nav{
     max-width: 1000px;
     padding: 5px 0px;
-    background-color: rgb(134, 138, 154);
+    background-color: rgb(164, 171, 196);
    
     display: flex;
     align-items: center;
@@ -52,8 +52,8 @@
     position: fixed;
     top: 28px;
     width: 100%;
-    
-    background-color: rgb(134, 138, 154);
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(104, 108, 124);
    
     z-index: 10;
 }
@@ -66,15 +66,14 @@
     white-space: nowrap;
     background-image: url(../img/logo.png);
 }
-.header .menu ul{
-    width: 265px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.header .menu .menu-floatLeft{
+    width: 88px;
+    float: left;
 }
 .header .menu a{
     text-decoration: none;
     display: block;
+    text-align: center;
     line-height: 50px;
     color: #00cc99;
     border-bottom: 5px solid transparent;
@@ -106,7 +105,7 @@
     color: white;
     font-size: 30px;
     line-height: 50px;
-    background-color: hsla(0, 0%, 0%, 0.1);
+    background-color: hsla(0%, 0%, 0%, 0.1);
     
 }
 .content-banner h1 span{
@@ -256,7 +255,7 @@
     padding: 0px 15px;
     display: flex;
     justify-content: space-between;
-    margin-top: 26px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 .footer-contact li a{
@@ -285,11 +284,41 @@
     margin-top: 75px;
 }
 
+/* .goToTop icon */
 .goToTop{
     position: absolute;
     bottom: 1%;
     right: 1%;
     font-size: 50px;
     cursor: pointer;
+    
+}
+
+/* menu dropdown */
+.dropdown{
+   
+    
+    
+    
+}
+.dropdown-open{
+    display: none;
+    position: fixed;
+    width: 88px;
+  
+}
+.dropdown-open li{
+    
+    background-color: rgb(2, 66, 2);
+}
+.dropdown-open li a{
+    color: red;
+}
+.header .menu li{
+   
+}
+.active{
+    background-color: rgb(2, 66, 2);
+    
     
 }
