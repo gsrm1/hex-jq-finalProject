@@ -4,15 +4,12 @@
 .wrap{
     max-width: 1000px;
     margin: 0 auto;
-    
     font-family: "Noto Sans TC", Arial, sans-serif;
-    
 }
 .nav{
     max-width: 1000px;
     padding: 5px 0px;
     background-color: rgb(164, 171, 196);
-   
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -21,7 +18,6 @@
     width: 100%;
     position: fixed;
     z-index: 10;
-    
 }
 .nav ul{
     margin-right: 10px;
@@ -54,7 +50,6 @@
     width: 100%;
     border-radius: 0 0 10px 10px;
     background-color: rgb(104, 108, 124);
-   
     z-index: 10;
 }
 .header .logo a{
@@ -93,11 +88,10 @@
     height: 346px;
     margin-bottom: 20px;
     display: flex;
-    
     align-items: center;
     border-radius: 0 0 5px 5px;
     
-    background-color: hsla(215, 85%, 55%, 0.706);
+    background-color: rgba(108, 11, 108, 0.852);
 }
 .content-banner h1{
     width: 1000px;
@@ -105,11 +99,9 @@
     color: white;
     font-size: 30px;
     line-height: 50px;
-    background-color: hsla(0%, 0%, 0%, 0.1);
-    
+    background-color: rgb(61, 99, 212);
 }
 .content-banner h1:hover{
-    background-color: purple;
     box-shadow: 0 0 20px orange;
 }
 .content-banner h1 span{
@@ -141,11 +133,11 @@
     transition: .3s;
 }
 .content-course .course h3, .content-course .course img{
-     text-align: center;
-     display: block;
-     margin: auto;
-     font-size: 18px;
-     padding: 10px 0px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    padding: 10px 0px;
 }
 .content-course .course-rwd img{
     margin-top: 20px;
@@ -275,35 +267,31 @@
 
 .swiper{
     max-width: 1000px;
-    
-   
 }
 .swiper img{
     width: 99%;
     border-radius: 5px;
-    
-   
 }
 .content{
     margin-top: 75px;
 }
 
 /* .goToTop icon */
+
 .goToTop{
     position: absolute;
     bottom: 1%;
     right: 1%;
     font-size: 50px;
     cursor: pointer;
-    
 }
 
 /* menu dropdown */
+
 .dropdown-open{
     display: none;
     position: fixed;
     width: 88px;
-  
 }
 .drop1 li{
     background-color: rgb(2, 66, 2);
@@ -314,14 +302,9 @@
 .dropdown-open li a{
     color: red;
 }
-.header .menu li{
-   
-}
 .active{
     background-color: rgb(2, 66, 2);
-    
 }
 .active2{
     background-color: rgb(70, 49, 163);
-    
 }
