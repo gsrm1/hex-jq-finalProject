@@ -36,10 +36,16 @@ $(document).ready(function () {
     });
 
     // menu dropdown-open
-    $('.dropdown').click(function (e) { 
+    $('.dropdown1').click(function (e) { 
       e.preventDefault();
-      $('.dropdown').toggleClass('active');
-      $('.dropdown-open').slideToggle('fast');
+      $('.dropdown1').toggleClass('active');
+      $('.drop1').slideToggle('fast');
+      
+    });
+    $('.dropdown2').click(function (e) { 
+      e.preventDefault();
+      $('.dropdown2').toggleClass('active2');
+      $('.drop2').slideToggle('fast');
       
     });
 });

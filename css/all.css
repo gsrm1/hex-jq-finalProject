@@ -108,6 +108,10 @@
     background-color: hsla(0%, 0%, 0%, 0.1);
     
 }
+.content-banner h1:hover{
+    background-color: purple;
+    box-shadow: 0 0 20px orange;
+}
 .content-banner h1 span{
     color: rgb(68, 226, 65);
     font-size: 35px;
@@ -295,21 +299,17 @@
 }
 
 /* menu dropdown */
-.dropdown{
-   
-    
-    
-    
-}
 .dropdown-open{
     display: none;
     position: fixed;
     width: 88px;
   
 }
-.dropdown-open li{
-    
+.drop1 li{
     background-color: rgb(2, 66, 2);
+}
+.drop2 li{
+    background-color: rgb(70, 49, 163);
 }
 .dropdown-open li a{
     color: red;
@@ -320,5 +320,8 @@
 .active{
     background-color: rgb(2, 66, 2);
     
+}
+.active2{
+    background-color: rgb(70, 49, 163);
     
 }
