@@ -84,8 +84,8 @@
     border-bottom: 5px solid red;
 }
 .content-banner{
-    max-width: 1000px;
     height: 346px;
+    margin-top: 75px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@
     font-size: 35px;
 }
 .content-course{
-    max-width: 1000px;
+   
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
@@ -269,21 +269,21 @@
     max-width: 1000px;
 }
 .swiper img{
-    width: 99%;
+    object-fit: cover;
+    width: 100%;
     border-radius: 5px;
 }
-.content{
-    margin-top: 75px;
-}
 
-/* .goToTop icon */
+/* goToTop icon */
 
-.goToTop{
-    position: absolute;
-    bottom: 1%;
-    right: 1%;
+#goToTop{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
     font-size: 50px;
     cursor: pointer;
+    display: none;
+  
 }
 
 /* menu dropdown */
