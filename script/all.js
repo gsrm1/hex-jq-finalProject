@@ -24,7 +24,7 @@ $(document).ready(function () {
 
       // goToTop icon
     function showBtnCondition() {
-      if ($(this).scrollTop() > 600) {
+      if ($(this).scrollTop() > 800) {
         $('#goToTop').fadeIn();
       } 
       else {
